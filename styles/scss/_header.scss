@@ -4,17 +4,18 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: blue;
 
   .menu-left,
   .menu-right {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 300px;
-    button {
-      background-color: transparent;
-      border: none;
+    width: 500px;
+    a {
+      margin: 40px 30px 0 30px;
+      text-decoration: none;
+      font-family: Verdana, d sans-serif;
+      color: black;
     }
   }
 
@@ -22,11 +23,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 200px;
+    width: 250px;
+    height: 100px;
+    margin-top: -25px;
 
     img.header-logo {
-      width: 150px;
-      height: auto;
+      width: 250px;
+      height: 150px;
+      top: -20px;
     }
   }
 
