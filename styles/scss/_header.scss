@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: orange;
+  background-color: blue;
 
   .menu-left,
   .menu-right {
@@ -21,11 +21,19 @@
   .logo-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 200px;
 
     img.header-logo {
       width: 150px;
       height: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .menu-left,
+    .menu-right {
+      display: none;
     }
   }
 }
